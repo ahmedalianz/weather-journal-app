@@ -1,0 +1,33 @@
+html{
+    background-color:rgb(25, 45, 65);color: white;font-size:20px
+}
+#app{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(76, 17, 216, 0.795);
+    padding:20px;
+    border-radius: 15px;
+}
+.headline{
+    font-size:40px;text-align: center;padding: 15px;
+}
+input{
+    padding:20px;border-radius: 15px
+}
+#generate{
+    display: block;margin: 20px auto;
+    background-color:rgb(15, 144, 219);
+    outline:none;color: white;
+    border: none;border-radius: 15px;
+    padding:20px;
+}
+h4{text-align: center}
+img{width:10%;position: absolute;
+top: 50px;right: 150px;
+animation: cloud 2s ease-in-out infinite alternate;
+}
+@keyframes cloud {
+    100%{
+        top:150px
+    }
+}
